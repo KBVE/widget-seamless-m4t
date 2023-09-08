@@ -24,6 +24,22 @@ export const link$ = atom('/#');
 export const description$ = atom('Description');
 export const n8n$ = atom('');
 export const load$ = atom(true);
+export const gradio$ = atom(false);
+export const axios$ = atom(false);
+
+// Task Name
+export const taskName$ = atom("");
+export const audioSource$ = atom("");
+export const inputAudioMic$ = atom("");
+export const inputAudioFile$ = atom("");
+export const inputText$ = atom("");
+export const sourceLanguage$ = atom ("");
+export const targetLanguage$ = atom ("");
+export const result$ = atom ("");
+
+
+
+
 
 export const tasker = async (__key, __data) => {
 	task(async () => {
