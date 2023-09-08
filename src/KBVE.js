@@ -36,7 +36,7 @@ const KBVE = ({ ve }) => {
 
   const fetchAudio = async () => {
     const response = await fetch(
-      "https://github.com/gradio-app/gradio/raw/main/test/test_files/audio_sample.wav"
+      "https://rareicon.com/assets/wav/test_test_files_audio_sample.wav"
     );
     return await response.blob();
   };
@@ -58,7 +58,7 @@ const KBVE = ({ ve }) => {
 
   return (
     <>
-      <div className="max-w-lg p-4 shadow-md bg-default dark:bg-gray-900 dark:text-gray-100">
+      <div className="max-w-lg p-4 shadow-md !bg-default bg-gray-900 text-gray-100">
         <div className="flex justify-between pb-4 border-bottom">
           <div className="flex items-center">
             <a
